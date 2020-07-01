@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+        'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    box-sizing: border-box !important;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    border: 0 none;
+    color: #807b7b;
+    font-size: small;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.jobcoin-logo img {
+    height: 200px;
+    width: 200px;
+}
+
+.login-main {
+    width: 600px;
+    margin: auto;
+    /* border: 1px solid red; */
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.widget {
+    border: 2px solid #eee;
+    width: 250px;
+}
+
+.widget p,
+.widget header {
+    border-bottom: 2px solid #efefef;
+    /* height: 50px; */
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.widget form {
+    display: flex;
+    flex-direction: column;
+    /* height: 100px; */
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.widget label {
+    margin: 10px 0 5px;
+}
+
+.widget button {
+    background-color: lightgray;
+    border: none;
+    height: 25px;
+    margin-top: 15px;
+}
+
+.widget input {
+    border: 1px solid lightgray;
+    height: 25px;
+    padding-left: 8px;
+    margin-bottom: 10px;
+}
+
+.dashboard-main > header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+    padding: 20px;
+}
+
+.dashboard-main > header div {
+    display: flex;
+    align-items: center;
+}
+.dashboard-main > header img {
+    display: inline;
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+
+.dashboard-details {
+    display: flex;
+    padding: 25px;
+    height: 85vh;
+}
+
+.dashboard-widgets {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+
+.dashboard-history-chart {
+    flex-grow: 1;
+    border: 1px solid lightgray;
+}
+
+.jobcoin-balance {
+    margin-bottom: 30px;
+}
+
+.balance-amount {
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    font-size: larger;
+}
+
+.error {
+    margin-top: -10px;
+    color: red;
+}
